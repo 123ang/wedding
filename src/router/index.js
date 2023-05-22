@@ -15,9 +15,7 @@ const routes = [
     path: '/',
     name: 'HomeView',
     component: HomeView,
-    meta: {
-      requiresAuth: true
-    }
+   
   },
   {
     path: '/vendor/:id',
@@ -33,9 +31,7 @@ const routes = [
     path: '/profile',
     name: 'Profile',
     component: ProfileView,
-    meta: {
-      requiresAuth: true
-    }
+    
   },
   {
     path: '/register',
